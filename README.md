@@ -17,8 +17,8 @@ It is important to install R first, then RStudio.
 ### Run App
 
 - After installing both R and RStudio, open the RStudio program.
-- Download the code for this repository by clicking "Code" and downloading as a ZIP. Alternatively you can clone the repository if you are comfortable with GitHub.
-- Open app.R file in RStudio
+- Download the code for this repository by clicking "Code" and downloading as a ZIP. Alternatively, you can clone the repository if you are comfortable with GitHub.
+- Open app.R file in RStudio.
 - Type shiny::runApp() in the console or click the "Run" button on the upper right. The app should run locally.
 
 Email Erin Bugbee (ebugbee@andrew.cmu.edu) with any questions about the app.
