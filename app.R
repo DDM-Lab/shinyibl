@@ -1,3 +1,13 @@
+# Install Packages
+install.packages("shiny")
+install.packages("ggvis")
+install.packages("dplyr")
+install.packages("reshape2")
+install.packages("tidyr")
+install.packages("rhandsontable")
+install.packages("data.table")
+
+# Load Packages
 library(shiny)
 library(ggvis)
 library(dplyr)
