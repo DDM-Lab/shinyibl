@@ -1,11 +1,11 @@
-# Install Packages
-install.packages("shiny")
-install.packages("ggvis")
-install.packages("dplyr")
-install.packages("reshape2")
-install.packages("tidyr")
-install.packages("rhandsontable")
-install.packages("data.table")
+# Install Packages (Run these lines in this console once, removing the #)
+# install.packages("shiny")
+# install.packages("ggvis")
+# install.packages("dplyr")
+# install.packages("reshape2")
+# install.packages("tidyr")
+# install.packages("rhandsontable")
+# install.packages("data.table")
 
 # Load Packages
 library(shiny)
