@@ -21,11 +21,20 @@ It is important to install R first, then RStudio.
 - Unzip the folder. You will now work with the unzipped folder.
 - Open RStudio. 
 - Set the working directory to be the unzipped folder. There are two main ways to do this. 
-1. Run the following in the console, substituting YOURFILEPATHHERE with the file path to the folder.
+1. Run the following in the console, substituting YOURFILEPATHHERE with the file path to the folder. Make sure to include the quotation marks, and also note that R uses forward slashes (/) as opposed to back slashes (\).
 ```
 setwd("YOURFILEPATHHERE")
 ```
+If you saved the folder to your downloads folder, for example, you would use something along the lines of the following:
+```
+setwd("/Users/YOURUSERNAME/Downloads/shinyIBL-main")
+```
 2. Or, navigate to the folder using the bottom right panel of RStudio by clicking through the "Files" tab. Then, click "More" and then "Set As Working Directory".
+
+You can check the current working directory by running the following in the console:
+```
+getwd()
+```
 - Once you have set the working directory, open the app.R file in RStudio.
 - Run the following in the console and follow the instructions to install the necessary packages:
 ```
